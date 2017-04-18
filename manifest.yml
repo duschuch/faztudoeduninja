@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: faztudoeduninja
+  host: faztudoeduninja
+  disk_quota: 1024M
+  services:
+  - faztudoeduninja-cloudantNoSQLDB
+  - availability-monitoring-auto
+  - curso-node-red
